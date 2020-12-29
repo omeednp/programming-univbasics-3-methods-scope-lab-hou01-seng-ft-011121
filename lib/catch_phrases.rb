@@ -3,19 +3,19 @@ sword = "It's Dangerous To Go Alone! Take This."
 phrase = "It's-a me, Mario!"
 
 def mario
-  puts phrase
+  puts "#{phrase}"
 end
 
 def toadstool
-  puts status
+  puts "#{status}"
 end
 
 def link
-  puts sword
+  puts "#{sword}"
 end
 
 def all_phrases
-  puts phrase
-  puts status
-  puts sword
+  puts "#{phrase}"
+  puts "#{status}"
+  puts "#{sword}"
 end
